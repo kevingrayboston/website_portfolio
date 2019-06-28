@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+  /* the most common fonts on this site will be Lato (most similar Google Font to Gill Sans (used by BBC.com) and Roboto (similar to Arial)
+  font-family: 'Lato', sans-serif; - Similar to Gill Sans (menu)
+  font-family: 'Roboto', sans-serif; - Similar to Arial - (welcomeDate)
+*/
+
+header {
+  width: 100%;
+  clear: both;
+  background-color: black;
+  color: white;
+  height: 39.5px;
+  float: left;
+}
+
+.bbcLogo {
+  width: 10%;
+  border-right: .5px solid white;
+  float: left;
+}
+
+.signIn {
+  width: 15%;
+  border-right: .5px solid white;
+  float: left;
+}
+
+.mainNav {
+  width: 50%;
+  border-right: .5px solid white;
+  float: left;
+  height: 100%;
+}
+
+.mainNav ul {
+  float: left;
+  list-style: none;
+  display: inline-block;
+  border-right: 1px solid white;
+  height: 100%;
+}
+
+.mainNav ul li {
+  float: left;
+  display: inline;
+  border-right: 1px solid white;
+  height: 100%
+}
+
+.welcomeDate {
+  width: 100%;
+  height: 45px;
+  float: left;
+  clear: both;
+  background-color: lightgray;
+}
+
+.welcomeDate h2 {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.welcomeDate h2:nth-child(1) {
+  font-family: 'Roboto';
+  font-size: 1.8em;
+  text-align: left;
+}
+
+.welcomeDate h2:nth-child(2) {
+  font-family: 'Roboto';
+  font-size: 1.8em;
+  text-align: right;
+}
+
+.search {
+  width: 20%;
+  border-left: .25px solid white;
+  float: left;
+}
+
+.bottomNews h2 {
+  width: 100%;
+  height: 39px;
+  color: gray;
+}
+
+.bottomNews h2:first-letter {
+  color: red;
+}
+
+.mainNews {
+  width: 100%;
+  height: 560px;
+  background-color: lightgray;
+  float: left;
+}
+
+.trump {
+  width: 50%;
+  height: 100%
+  border: 5px solid blue;
+  float: left;
+}
+
+.forSmallnews {
+  width: 50%;
+  height: 100%
+  border: 5px solid green;
+  float: left;
+}
+
+.forSmallnews>section{
+  width: 23%;
+  height: 23%;
+  border: 1px solid tan;
+  border: 1%;
+  float: left;
+}
+
+.bottomNews {
+  height: 40px;
+  width: 100%;
+  border: 1px solid red;
+  float: left;
+  clear: both;
+}
+
+.bottomStories {
+  width: 100%;
+  border: 1px solid purple;
+  float: left;
+  clear: both;
+  padding-left: 30px;
+}
+
+.clearfix
+
+.bottomStories img {
+  width: 280px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+  margin: 2%;
+}
