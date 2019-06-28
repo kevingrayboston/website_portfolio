@@ -5,11 +5,21 @@ This is a collection of samples from some of the webpages that I have built. You
 
 **Link to portfolio:** www.getkgdevelopment.com
 
-<img src="/Web_Sample_Screenshots/screenshot_venturebeats.png" height="100px">
-<img src="/Web_Sample_Screenshots/screenshot_levelground.png" alt="screenshot of venturebeat webpage" height="100px" >
-<img  src="/Web_Sample_Screenshots/screenshot_techcrunch.png" alt="screenshot of techcrunch webpage" height="100px">
-<img src="/Web_Sample_Screenshots/screenshot_yelp.png" alt="screenshot of yelp webpage" height="100px">
-<img src="/Web_Sample_Screenshots/screenshot_bbc.png" alt="screenshot of bbc webpage" height="100px">
+<img src="/Web_Sample_Screenshots/screenshot_venturebeats.png" alt="screenshot of venturebeat webpage" height="200px">
+<img src="/Web_Sample_Screenshots/screenshot_levelground.png" alt="screenshot of levelground webpage" height="200px" >
+<img  src="/Web_Sample_Screenshots/screenshot_techcrunch.png" alt="screenshot of techcrunch webpage" height="200px">
+<img src="/Web_Sample_Screenshots/screenshot_yelp.png" alt="screenshot of yelp webpage" height="200px">
+<img src="/Web_Sample_Screenshots/screenshot_bbc.png" alt="screenshot of bbc webpage" height="200px">
+
+
+Links to Pages hosted on Netlify:
+Venture Beat: https://5d134df08f6068424a2845bc--cocky-kepler-a09e8b.netlify.com/
+Level Ground: https://5d134e551758675c03cbb530--cocky-kepler-a09e8b.netlify.com/
+Techcrunch: https://cocky-kepler-a09e8b.netlify.com/
+BBC: https://5d134e551758675c03cbb530--cocky-kepler-a09e8b.netlify.com/
+Yelp: Link forthcoming
+
+
 
 ## How It's Made:
 
