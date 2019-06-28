@@ -5,12 +5,11 @@ This is a collection of samples from some of the webpages that I have built. You
 
 **Link to portfolio:** www.getkgdevelopment.com
 
-![screenshot of venturebeat webpage](Photos/Kata%20Screenshot.png)
-<img alt="screenshot of venturebeat webpage" src="" height="100px">
-<img alt="screenshot of levelground webpage" src="" height="100px">
-<img alt="screenshot of techcrunch webpage" src="" height="100px">
-<img alt="screenshot of yelp webpage" src="" height="100px">
-<img alt="screenshot of bbc webpage" src="" height="100px">
+<img src="/Web_Sample_Screenshots/screenshot_venturebeats.png" height="100px">
+<img src="/Web_Sample_Screenshots/screenshot_levelground.png" alt="screenshot of venturebeat webpage" height="100px" >
+<img  src="/Web_Sample_Screenshots/screenshot_techcrunch.png" alt="screenshot of techcrunch webpage" height="100px">
+<img src="/Web_Sample_Screenshots/screenshot_yelp.png" alt="screenshot of yelp webpage" height="100px">
+<img src="/Web_Sample_Screenshots/screenshot_bbc.png" alt="screenshot of bbc webpage" height="100px">
 
 ## How It's Made:
 
