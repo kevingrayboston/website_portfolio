@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #231f20;
+  float: left;
+}
+
+h1 {
+  width: 7%;
+  float: left;
+  margin-left: 15%;
+  font-size: 4em;
+  margin-top: -1px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+}
+
+h1 a {
+  text-decoration: none;
+  color: red;
+}
+
+h1::first-letter {
+  color: white;
+}
+
+
+header nav ul {
+  margin-left: 10%;
+  width: 60%;
+  float: left;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul li {
+  float: left;
+  list-style: none;
+  color: lightgray;
+  margin-left: 0%;
+  width: 21%;
+}
+
+header nav ul li a {
+  float: left;
+  list-style: none;
+  color: lightgray;
+  margin-left: 3%;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+header nav ul li:nth-child(3) {
+  margin-right: 7%;
+}
+
+header nav ul li:nth-child(n+4) {
+  width: 12%;
+  margin-right: 2%;
+  font-size: 1.8rem;
+}
+
+header nav ul li:nth-child(n+5) {
+  width: 9%;
+  margin-right: 2%;
+  font-size: 1.8rem;
+}
+
+header nav ul li:nth-child(-n+2) {
+  width: 18%;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #231f20;
+
+  float: left;
+  clear: both;
+}
+
+.stories h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: 400;
+  color: #231f20;
+  margin-left: 1.7%;
+  margin-top: 0;
+  width: 80%;
+}
+
+.stories a {
+  text-decoration: none;
+}
+
+
+h4,time {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  display: inline;
+  font-weight: lighter;
+  display: inline;
+  font-size: .8rem;
+}
+
+h4 {
+  margin-right: 10%;
+  margin-left: 4%
+}
+
+h4 a {
+  text-decoration: none;
+  color: blue;
+}
+
+figcaption:nth-child(2) h4 {
+  width: 44%;
+  display: inline-block;
+  margin-left: 3%;
+  float: left;
+  text-align: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.topPhoto {
+  height: 400px;
+  width: 100%;
+  clear: both;
+  float: left;
+}
+
+  .topPhoto {
+  background-image: url(Ellen_Pao_2015_2.jpg);
+  background-size: cover;
+  background-position: bottom -55px right -140px;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.bottomSection {
+  height: 500px;
+  width: 100%;
+
+  float: left;
+  clear: both;
+}
+
+.stories {
+  height: 450px;
+  width: 51%;
+
+  margin-left: 10%;
+  float: left;
+  text-align: center;
+  padding: 0;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  height: 180px;
+  border-bottom: 2px solid lightgray;
+  padding-top: 10px;
+  float: left;
+}
+
+figcaption, figure img {
+  width: 49%;
+  float: left;
+  font-size: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  height: 90%;
+}
+
+.topPhoto h2 {
+  height: 80px;
+  width: 48%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 270px;
+  background-color: rgba(255,255,255, 0.7);
+  /* add rbg color with transparency above */
+  font-size: 2.0rem;
+  color: #231f20;
+  padding: 9px 1.8% 0px 1.8%;
+  font-family: 'Roboto Slab', serif;
+}
+
+header>i {
+  height: 0px;
+  width: 0%;
+  color: #231f20;
+}
+
+@media only screen and (max-width:850px) {
+
+.topPhoto {
+  background-position: bottom -0px right -110px;
+  background-attachment: scroll;
+}
+}
+
+@media only screen and (max-width:640px) {
+  header nav {
+    display: none;
+  }
+  .topPhoto h2 {
+    width: 100%;
+    clear: both;
+    margin-left: 0;
+    height: 74px;
+    font-size: 2.0em;
+  }
+  header i {
+    display: block;
+    float: right;
+    font-size: 3em;
+    color: white;
+    margin-right: 17%;
+    margin-top: 11px;
+  }
+  .bottomSection {
+    width: 100%;
+  }
+.stories{
+    width: 90%;
+    margin: 0;
+    align-items: center;
+  }
+.stories img {
+  width: 40%;
+}
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+}
+
+@media (min-width:500px) and (max-width:825px) {
+  header nav {
+    display: none;
+  }
+  .topPhoto h2 {
+    width: 100%;
+    clear: both;
+    margin-left: 0;
+  }
+  header i {
+    display: block;
+    float: right;
+    font-size: 3em;
+    color: white;
+    margin-right: 12%;
+    margin-top: 11px;
+  }
+.stories {
+  width: 90%;
+  margin: 0;
+  align-items: center;
+}
+.stories img {
+  width: 40%;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+}
+.img {
+  background-image: url(Ellen_Pao_2015_2.jpg);
+}
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .img {
+    background-image: url(Ellen_Pao_2015_2.jpg);
+  }
+}
+@media (min-width:642px) and (max-width:676px) {
+  header nav ul li a {
+      font-size: 1rem;
+  }
+}
